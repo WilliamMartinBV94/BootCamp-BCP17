@@ -1,0 +1,12 @@
+package com.NTTDATA.BootCamp.model;
+
+import java.sql.Date;
+
+public class RegistarSolicitudAFP {
+	private String DNI;
+	private String montoDisponible;
+	private Date fechaRetiro;
+	private String nroCuenta;
+	
+
+}

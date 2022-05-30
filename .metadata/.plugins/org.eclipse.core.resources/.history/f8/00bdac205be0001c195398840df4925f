@@ -1,0 +1,39 @@
+package com.NTTDATA.BootCamp.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.NTTDATA.BootCamp.model.Persona;
+import com.NTTDATA.BootCamp.repository.PersonaRepository;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+
+
+@Service
+public class SistemaAFPService {
+	@Autowired
+	private PersonaRepository personaRepository;
+	
+	
+	public Persona create (Persona persona) {
+		return personaRepository.save(persona);
+	}
+	
+	public List<Persona> getAllPersonas (){
+		return personaRepository.findAll();
+	}
+	
+	public void delete (Persona persona) {
+		logger.info("Temperature set to");
+		personaRepository.delete(persona);
+	}
+	
+	
+	
+
+}

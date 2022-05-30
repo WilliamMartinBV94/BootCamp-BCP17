@@ -1,0 +1,5 @@
+package com.NTTDATA.BootCamp.repository;
+
+public interface PersonaRepository {
+
+}

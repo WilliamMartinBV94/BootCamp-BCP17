@@ -1,0 +1,10 @@
+package com.NTTDATA.BootCamp.model;
+
+public class AFP {
+	private String PRIMA;
+	private String INTEGRA;
+	private String PROFUTURO;
+	private String HABITAT;
+	
+
+}

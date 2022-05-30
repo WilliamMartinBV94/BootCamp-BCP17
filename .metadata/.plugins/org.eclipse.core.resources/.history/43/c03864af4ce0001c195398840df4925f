@@ -1,0 +1,5 @@
+package com.NTTDATA.BootCamp.model;
+
+public class RegistrarSolicitudRequest {
+
+}

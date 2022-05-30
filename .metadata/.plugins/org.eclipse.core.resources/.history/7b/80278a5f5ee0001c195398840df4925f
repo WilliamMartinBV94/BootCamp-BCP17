@@ -1,0 +1,9 @@
+package com.NTTDATA.BootCamp.model;
+
+
+public class RegistrarSolicitudRequest {
+	private String DNI;
+	private String montoRetiro;
+	private String AFP;
+	
+}
